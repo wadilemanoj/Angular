@@ -8,6 +8,7 @@ import { ToolbarComponent } from './core/layout/toolbar/toolbar.component';
 import { MaincontainerComponent } from './core/layout/maincontainer/maincontainer.component';
 import { WrapperComponent } from './core/layout/wrapper/wrapper.component';
 import { FooterComponent } from './core/layout/footer/footer.component';
+import { HomeModule } from './mod/home/home.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { FooterComponent } from './core/layout/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
