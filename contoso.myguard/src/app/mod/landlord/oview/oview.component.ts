@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-oview',
+  selector: 'app-landlord-oview',
   templateUrl: './oview.component.html',
   styleUrls: ['./oview.component.css']
 })

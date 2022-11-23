@@ -45,8 +45,10 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 24, 28, 50;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: Inter, Helvetica, "sans-serif";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* --bs-font-sans-serif: Inter, Helvetica, "sans-serif"; */
+  --bs-font-sans-serif:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  /* --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+  --bs-font-monospace:"Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -45855,7 +45857,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 13px !important;
   font-weight: 400;
-  font-family: Inter, Helvetica, "sans-serif";
+  /* font-family: Inter, Helvetica, "sans-serif"; */
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media (max-width: 991.98px) {
   html,

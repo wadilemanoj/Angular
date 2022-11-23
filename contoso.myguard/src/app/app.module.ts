@@ -8,7 +8,7 @@ import { ToolbarComponent } from './core/layout/toolbar/toolbar.component';
 import { MaincontainerComponent } from './core/layout/maincontainer/maincontainer.component';
 import { WrapperComponent } from './core/layout/wrapper/wrapper.component';
 import { FooterComponent } from './core/layout/footer/footer.component';
-import { HomeModule } from './mod/home/home.module';
+import { FlatModule } from './mod/flat/flat.module';
 
 @NgModule({
   declarations: [
