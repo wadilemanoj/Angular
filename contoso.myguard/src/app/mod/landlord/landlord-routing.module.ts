@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ApartmentComponent } from './apartment/apartment.component';
+import { BillingComponent } from './billing/billing.component';
 import { ContainerComponent } from './container/container.component';
 import { MemberComponent } from './member/member.component';
 import { OviewComponent } from './oview/oview.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
       { path: '', pathMatch: 'full', redirectTo: 'oview' },
       { path: 'oview', component: OviewComponent },
       { path: 'member', component: MemberComponent },
-      { path: 'apartment', component: ApartmentComponent }
+      { path: 'apartment', component: ApartmentComponent },
+      { path: 'billing', component: BillingComponent }
     ]
   },
 ];
