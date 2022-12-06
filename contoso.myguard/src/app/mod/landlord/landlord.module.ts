@@ -9,6 +9,8 @@ import { OviewComponent } from './oview/oview.component';
 import { MemberComponent } from './member/member.component';
 import { ApartmentComponent } from './apartment/apartment.component';
 import { BillingComponent } from './billing/billing.component';
+import { InvoiceComponent } from './invoice/invoice.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { BillingComponent } from './billing/billing.component';
     OviewComponent,
     MemberComponent,
     ApartmentComponent,
-    BillingComponent
+    BillingComponent,
+    InvoiceComponent,
+    ModalComponent
   ],
   imports: [
     CommonModule,
