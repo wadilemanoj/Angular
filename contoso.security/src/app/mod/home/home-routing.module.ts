@@ -3,8 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandComponent } from './land/land.component';
 
 const routes: Routes = [
-  { path: '', pathMatch:'full', redirectTo:'home'},
-  { path: 'home', component: LandComponent }
+  {
+    path: '', children: [
+      { path: 'home', component: LandComponent },
+      { path: '', pathMatch: 'full', redirectTo: 'home' },
+    ]
+  }
 ];
 
 @NgModule({

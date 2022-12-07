@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { LandlordRoutingModule } from './landlord-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MemberComponent } from './member/member.component';
 
 
 @NgModule({
   declarations: [
-    DashboardComponent
+    DashboardComponent,
+    MemberComponent
   ],
   imports: [
     CommonModule,

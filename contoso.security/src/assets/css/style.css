@@ -4608,7 +4608,8 @@ video {
   padding: 0 15px;
   position: relative !important;
   flex-shrink: 1;
-  /*   */
+  width: calc(100% - 220px);
+
 }
 @media (min-width: 768px) {
   #page-wrapper {
